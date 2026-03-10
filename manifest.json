@@ -4,24 +4,35 @@
     "version": "1.0.0",
     "description": "Changes theme groups.",
     "author": "Team Anonymous",
-    "developer": { 
-        "name": "Ramin, Daniel, Julian, Alejandro, Moe" 
+    "developer": {
+        "name": "Ramin, Daniel, Julian, Alejandro, Moe"
     },
-
+    "icons": {
+        "16": "icons/icon.svg",
+        "32": "icons/icon.svg",
+        "48": "icons/icon.svg",
+        "96": "icons/icon.svg",
+        "128": "icons/icon.svg"
+    },
     "browser_action": {
-    "default_popup": "src/popup.html",
-    "default_title": "Anonymous Theme Switcher"
+        "default_icon": {
+            "16": "icons/icon.svg",
+            "32": "icons/icon.svg"
+        },
+        "default_popup": "src/popup.html",
+        "default_title": "Anonymous Theme Switcher"
     },
-
-   // "background": {
-     //   "page": "background-page.html",
-       // "persistent": true
-    //},
-
+    "background": {
+        "scripts": ["src/background.js"],
+        "persistent": true
+    },
     "permissions": [
-    "<all_urls>", "storage", "management", "theme", "alarms", "tabs"
+        "storage",
+        "management",
+        "theme",
+        "alarms",
+        "tabs"
     ],
-    
     "browser_specific_settings": {
         "gecko": {
             "id": "anonymous_theme_switcher@team-anonymous.org",
