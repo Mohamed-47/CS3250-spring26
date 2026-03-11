@@ -167,6 +167,8 @@ browser.runtime.onInstalled.addListener(async (_details) => {
 	}
 });
 
+/* eslint-disable no-undef */
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { getStorage, setStorage, nextIndex, broadcastSetBackground };
 }
+/* eslint-enable no-undef */
