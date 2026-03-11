@@ -41,7 +41,8 @@ project-root
 1. Clone the repository
 2. Open the project in your preferred IDE
 3. Install dependencies
-npm install
+
+   'npm install'.
 
 ---
 
@@ -68,8 +69,9 @@ The CI workflow performs the following steps:
 2. Sets up a Node.js environment
 3. Installs dependencies
 4. Runs ESLint to check code quality
+5. Runs Jest tests and checks code coverage
 
-This helps ensure that all code added to the project meets our coding standards
+This helps ensure that all code added to the project meets our coding standards.
 
 ---
 
@@ -81,7 +83,7 @@ To view the documentation:
 1. Open the file docs/index.html
 2. Right click on the file
 3. Click on **Open with a live server**
-This wil display the documentation as a website in the browser
+This will display the documentation as a website in the browser
 
 ---
 
