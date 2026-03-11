@@ -77,7 +77,7 @@ This helps ensure that all code added to the project meets our coding standards
 
 JSDoc is used to generate HTML documentation from comments in the JavaScript code
 
-To view the documenation:
+To view the documentation:
 1. Open the file docs/index.html
 2. Right click on the file
 3. Click on **Open with a live server**
@@ -90,7 +90,7 @@ This wil display the documentation as a website in the browser
 Team Anonymous 
 
 - Ramin
-- Daniel
+- Daniel Campos
 - Alejandro
-- Julian
-- Moehamed
+- Julian Aguirre
+- Mohamed
